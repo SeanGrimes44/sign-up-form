@@ -7,8 +7,8 @@ body {
 .form-side p {
     font-size: 25px;
     padding-left: 3vw;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
 }
 
 .container {
@@ -45,6 +45,11 @@ body {
     position: fixed;
     bottom:0;
     color: white;
+    font-weight: 200;
+}
+.footer a {
+    text-decoration: underline;
+    color: white;
 }
 
 .form-side {
@@ -72,6 +77,8 @@ body {
 input {
     width: 200px;
     height: 20px;
+    font-size: 16px;
+    padding: 5px;
 }
 
 button {
@@ -84,4 +91,13 @@ button {
     padding: 1vh 3vw;
     margin-top: 3vh;
     box-shadow: 3px 3px 3px #aaaaaa;
+}
+
+#bottom {
+    font-size: 20px;
+}
+
+#login {
+    text-decoration: none;
+    color:#596d48;
 }
